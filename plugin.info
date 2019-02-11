@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/cleinias/TW5-SgfEditor",
+	"description": "TW5-SgfEditor provides a widget allowing the visuialization and editing of Go games in SGF format",
+	"author": "Stefano Franchi",
+	"version": "0.0.1",
+	"core-version": ">=5.0.8",
+	"source": "https://github.com/cleinias/TW5-SgfEditor",
+	"plugin-type": "plugin"
+}

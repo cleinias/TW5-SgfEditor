@@ -1,0 +1,25 @@
+{
+	"tiddlers": [
+		{
+			"file": "", // real fs path to GUI library goes her
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/cleinias/XXXXXX", //TW5 name of the library goes here
+				"module-type": "library"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+        {
+			"file": "", //real fs path to CSS goes here
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/XXXXXX", // TW5 name of the css goes here
+                                "tags": "[[$:/tags/Stylesheet]]"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+}
+
+	]
+}
