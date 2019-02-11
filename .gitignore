@@ -1,0 +1,21 @@
+.DS_Store
+.sass-cache
+
+# All backup files
+.md~
+.md#
+.php~
+.php#
+.yaml#
+.yaml~
+.txt~
+.twig~
+.js~
+.lyx~
+.tex~
+
+
+.c9/
+tmp/
+output/
+node_modules/
