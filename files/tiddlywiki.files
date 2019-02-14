@@ -1,25 +1,106 @@
 {
 	"tiddlers": [
 		{
-			"file": "", // real fs path to GUI library goes her
+			"file": "tenuki/build/tenuki.js",
 			"fields": {
 				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/XXXXXX", //TW5 name of the library goes here
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
 				"module-type": "library"
 			},
 			"prefix": "(function(document) {\n",
 			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
 },
         {
-			"file": "", //real fs path to CSS goes here
+			"file": "tenuki/build/tenuki.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/XXXXXX", // TW5 name of the css goes here
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
 			},
 			"prefix": "(function(document) {\n",
 			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-}
+},
+		{
+			"file": "sabaki",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
+				"module-type": "library"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+        {
+			"file": "sabaki.css", 
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+                                "tags": "[[$:/tags/Stylesheet]]"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+		{
+			"file": "sabaki/XXX.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
+				"module-type": "library"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+        {
+			"file": "tenuki/sabaki.css", 
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+                                "tags": "[[$:/tags/Stylesheet]]"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+		{
+			"file": "glift/XXX.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
+				"module-type": "library"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+        {
+			"file": "glift/glift.css", 
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+                                "tags": "[[$:/tags/Stylesheet]]"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+		{
+			"file": "besogo/XXX.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
+				"module-type": "library"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+        {
+			"file": "besogo/glift.css", 
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+                                "tags": "[[$:/tags/Stylesheet]]"
+			},
+			"prefix": "(function(document) {\n",
+			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
+},
+
 
 	]
 }
