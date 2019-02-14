@@ -74,6 +74,6 @@ GoGameWidget.prototype.refresh = function(changedTiddlers) {
 };
 
 
-    exports.sgfEditor = GoGameWidget;
+    exports.sgfeditor = GoGameWidget;
 
 })();
