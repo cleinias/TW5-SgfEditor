@@ -5,5 +5,7 @@
 	"version": "0.0.1",
 	"core-version": ">=5.0.8",
 	"source": "https://github.com/cleinias/TW5-SgfEditor",
-	"plugin-type": "plugin"
+	"plugin-type": "plugin",
+       	"list": "readme usage syntax example license config"
+
 }

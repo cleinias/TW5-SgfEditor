@@ -17,11 +17,53 @@
 		                }
                        },
                          {
-			"file": "besogo/css/board-wood.css", 
+			"file": "besogo/css/board-flat.css", 
 			"fields": {
 				"type": "text/css",
 				"title": "$:/plugins/cleinias/SgfEditor/besogo.board.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
+		                }
+                       },
+                         {
+			"file": "doc/example.md", 
+			"fields": {
+				"type": "text/md",
+				"title": "$:/plugins/cleinias/SgfEditor/example"
+		                }
+                       },
+                         {
+			"file": "doc/license.md", 
+			"fields": {
+				"type": "text/md",
+				"title": "$:/plugins/cleinias/SgfEditor/license"
+		                }
+                       },
+                         {
+			"file": "doc/readme.md", 
+			"fields": {
+				"type": "text/md",
+				"title": "$:/plugins/cleinias/SgfEditor/readme"
+		                }
+                       },
+                         {
+			"file": "doc/syntax.md", 
+			"fields": {
+				"type": "text/md",
+				"title": "$:/plugins/cleinias/SgfEditor/syntax"
+		                }
+                       },
+                         {
+			"file": "doc/usage.md", 
+			"fields": {
+				"type": "text/md",
+				"title": "$:/plugins/cleinias/SgfEditor/usage" 
+		                }
+                       },
+                         {
+			"file": "doc/config.txt", 
+			"fields": {
+				"type": "text/plain",
+				"title": "$:/plugins/cleinias/SgfEditor/config" 
 		                }
                        },
                        {
@@ -31,6 +73,5 @@
                                  "title":"$:/plugins/cleinias/SgfEditor/goban-wood"                       
                                  }
                        }
-                       
 	]
 }
