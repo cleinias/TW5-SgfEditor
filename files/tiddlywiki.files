@@ -1,106 +1,36 @@
 {
 	"tiddlers": [
 		{
-			"file": "tenuki/build/tenuki.js",
+			"file": "besogo/besogo.all.js",
 			"fields": {
 				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
+				"title": "$:/plugins/cleinias/SgfEditor/besogo", 
 				"module-type": "library"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-        {
-			"file": "tenuki/build/tenuki.css", 
+		                }
+                        },
+                         {
+			"file": "besogo/css/besogo.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+				"title": "$:/plugins/cleinias/SgfEditor/besogo.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-		{
-			"file": "sabaki",
-			"fields": {
-				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
-				"module-type": "library"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-        {
-			"file": "sabaki.css", 
+		                }
+                       },
+                         {
+			"file": "besogo/css/board-wood.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
+				"title": "$:/plugins/cleinias/SgfEditor/besogo.board.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-		{
-			"file": "sabaki/XXX.js",
-			"fields": {
-				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
-				"module-type": "library"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-        {
-			"file": "tenuki/sabaki.css", 
-			"fields": {
-				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
-                                "tags": "[[$:/tags/Stylesheet]]"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-		{
-			"file": "glift/XXX.js",
-			"fields": {
-				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
-				"module-type": "library"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-        {
-			"file": "glift/glift.css", 
-			"fields": {
-				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
-                                "tags": "[[$:/tags/Stylesheet]]"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-		{
-			"file": "besogo/XXX.js",
-			"fields": {
-				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki", 
-				"module-type": "library"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-        {
-			"file": "besogo/glift.css", 
-			"fields": {
-				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/tenuki.css", 
-                                "tags": "[[$:/tags/Stylesheet]]"
-			},
-			"prefix": "(function(document) {\n",
-			"suffix": "\n})($tw.node ? $tw.fakeDocument : window.document)\n"
-},
-
-
+		                }
+                       },
+                       {
+                       "file": "besogo/img/shinkaya4.jpg",
+                       "fields": { 
+                                 "type": "image/jpg",
+                                 "title":"$:/plugins/cleinias/SgfEditor/goban-wood"                       
+                                 }
+                       }
+                       
 	]
 }
