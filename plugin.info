@@ -1,6 +1,6 @@
 {
-	"title": "$:/plugins/cleinias/TW5-SgfEditor",
-	"description": "TW5-SgfEditor provides a widget allowing the visualization and editing of Go games in SGF format",
+	"title": "$:/plugins/cleinias/sgfeditor",
+	"description": "Go/Baduk/Weiqi game editor",
 	"author": "Stefano Franchi",
 	"version": "0.0.1",
 	"core-version": ">=5.0.8",

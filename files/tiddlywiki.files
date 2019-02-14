@@ -4,7 +4,7 @@
 			"file": "besogo/besogo.all.js",
 			"fields": {
 				"type": "application/javascript",
-				"title": "$:/plugins/cleinias/SgfEditor/besogo", 
+				"title": "$:/plugins/cleinias/sgfeditor/besogo", 
 				"module-type": "library"
 		                }
                         },
@@ -12,15 +12,15 @@
 			"file": "besogo/css/besogo.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/besogo.css", 
+				"title": "$:/plugins/cleinias/sgfeditor/besogo.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
 		                }
                        },
                          {
-			"file": "besogo/css/board-flat.css", 
+			"file": "besogo/css/board-wood.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/SgfEditor/besogo.board.css", 
+				"title": "$:/plugins/cleinias/sgfeditor/besogo.board.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
 		                }
                        },
@@ -28,49 +28,49 @@
 			"file": "doc/example.md", 
 			"fields": {
 				"type": "text/md",
-				"title": "$:/plugins/cleinias/SgfEditor/example"
+				"title": "$:/plugins/cleinias/sgfeditor/example"
 		                }
                        },
                          {
 			"file": "doc/license.md", 
 			"fields": {
 				"type": "text/md",
-				"title": "$:/plugins/cleinias/SgfEditor/license"
+				"title": "$:/plugins/cleinias/sgfeditor/license"
 		                }
                        },
                          {
 			"file": "doc/readme.md", 
 			"fields": {
 				"type": "text/md",
-				"title": "$:/plugins/cleinias/SgfEditor/readme"
+				"title": "$:/plugins/cleinias/sgfeditor/readme"
 		                }
                        },
                          {
 			"file": "doc/syntax.md", 
 			"fields": {
 				"type": "text/md",
-				"title": "$:/plugins/cleinias/SgfEditor/syntax"
+				"title": "$:/plugins/cleinias/sgfeditor/syntax"
 		                }
                        },
                          {
 			"file": "doc/usage.md", 
 			"fields": {
 				"type": "text/md",
-				"title": "$:/plugins/cleinias/SgfEditor/usage" 
+				"title": "$:/plugins/cleinias/sgfeditor/usage" 
 		                }
                        },
                          {
 			"file": "doc/config.txt", 
 			"fields": {
 				"type": "text/plain",
-				"title": "$:/plugins/cleinias/SgfEditor/config" 
+				"title": "$:/plugins/cleinias/sgfeditor/config" 
 		                }
                        },
                        {
                        "file": "besogo/img/shinkaya4.jpg",
                        "fields": { 
                                  "type": "image/jpg",
-                                 "title":"$:/plugins/cleinias/SgfEditor/goban-wood"                       
+                                 "title":"$:/plugins/cleinias/sgfeditor/goban-wood"                       
                                  }
                        }
 	]
