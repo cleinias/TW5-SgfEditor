@@ -5,7 +5,7 @@
 # Parameters
 all=besogo.all.js
 min=besogo.min.js
-distPath=dist\/
+distPath=dist
 library=besogo
 homeDir=$PWD
 
