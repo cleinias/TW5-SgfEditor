@@ -3,12 +3,12 @@
     "panels"     :  "control+names+comment+tool+tree+file",
     "realstones" :  false,
     "shadows"    :  auto,
-    "coord"      :  "western",
+    "coord"      :  "none",
     "maxwidth"   :  600,
-    "tool"       :  "",
+    "tool"       :  "none",
     "variants"   :  0,
     "path"       :  "n",
     "nokeys"     :  false,
     "nowheel"    :  false,
-    "resize"     :  "auto"
+    "resize"     :  "maxwidth"
 }
