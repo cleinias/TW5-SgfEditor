@@ -45,21 +45,28 @@ mkdir -p ./$distPath/files/doc
 mkdir -p ./$distPath/files/jdoc
 mkdir -p ./$distPath/files/$library
 mkdir -p ./$distPath/files/$library/css
+mkdir -p ./$distPath/files/$library/img
 
 echo "Copying " $library  "combined + minified js files..."
 cp files/$library/$min ./$distPath/files/$library/
 cp files/$library/$all ./$distPath/files/$library/
 
-echo "Copying " $library "CSS files..."
+echo "Copying " $library "CSS files and images..."
 cp files/$library/css/* ./$distPath/files/$library/css
+cp files/$library/img/* ./$distPath/files/$library/img
+
 
 echo "Copying plugin javascript files and plugin.info..."
 cp ./*.js ./$distPath/
 cp plugin.info ./$distPath/
 
-echo "Copying tiddlywiki.info and documentation..."
+echo "Copying tiddlywiki.info, documentation, and .json settings..."
 cp files/doc/* ./$distPath/files/doc/
 cp files/tiddlywiki.files ./$distPath/files
+cp files/config.json ./$distPath/files
+
+echo "Copying library required images..."
+cp files 
 
 echo "Uploading test wiki..."
 # TO DO
