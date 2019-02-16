@@ -1,0 +1,24 @@
+created: 20190207013337612
+modified: 20190208172604116
+tags: 
+title: Test Godiagram 1 => with a goban
+type: text/vnd.tiddlywiki
+
+A bunch of text and more and more
+A bunch of text and more and moreA bunch of text and more and more
+A bunch of text and more and more
+A bunch of text and more and more
+A bunch of text and more and more
+
+<$godiagram goban="$$c Sample 9x9 board
+$$  ------------------
+$$ |. . . . . . . . . | 
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$ |. . . . . . . . . |
+$$  ------------------" /> A bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and moreA bunch of text and more and more

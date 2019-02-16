@@ -1,0 +1,19 @@
+created: 20190207053914772
+modified: 20190213041719181
+tags: 
+title: Test GoDiagram with stones and links
+type: text/vnd.tiddlywiki
+
+<$godiagram goban = "$$c Links in diagrams - examples
+$$  --------------
+$$ | . . . . 1 . .
+$$ | . C . . . . .
+$$ | 2 . . X O 4 .
+$$ | . . X O . . .
+$$ | . . X O . . .
+$$ | 3 . a . . C .
+$$ | . . . . . . .
+$$ [2|NadareJoseki]
+$$ [a|http://gtl.xmp.net/members/info?p_key=349&pseudo=dada]
+$$ [C|#1]
+"/>

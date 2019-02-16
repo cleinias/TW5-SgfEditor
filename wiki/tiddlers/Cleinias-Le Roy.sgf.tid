@@ -1,0 +1,39 @@
+created: 20190210213116134
+modified: 20190210213132020
+tags: sgf
+title: Cleinias-Le Roy.sgf
+type: application/x-go-sgf
+
+(;FF[4]GM[1]CA[UTF-8]
+SZ[19]
+PW[cleinias]
+PB[Le Roy]
+WR[22k]
+BR[17k]
+KM[6.500000]
+PC[OGS: https://online-go.com/game/16151903]
+DT[2019-01-16]
+RU[japanese]
+TM[259200]
+OT[86400 fischer]
+CP[online-go.com]
+RE[W+T];B[dp];W[pd]
+C[cleinias: Will try to play a bit more carefully the first few moves. 
+cleinias: And then again, my first move was all but careful
+]
+;B[qp];W[dd];B[qf];W[nc];B[rd];W[dj];B[fc];W[cf];B[db];W[cc];B[jc];W[qh]
+C[cleinias: Trying the pincer at r12 as a different  joseki
+]
+;B[of]TR[qc]MA[oh];W[oh];B[mg]
+C[cleinias: two pressing issues: whote stones isolated on top right and reace to the center from the right center . opting  for the top with M17
+]
+;W[lc];B[ke];W[me];B[fe]LB[ph:A][qc:B][ql:C];W[ph];B[cn];W[qn];B[op];W[qo];B[ck];W[cq];B[dq]
+C[cleinias: So, trying the invasion on the hoshi point at B D4, even though it is defended by C6. Of course B replies with D3 (as opposed to C4) as it has support on the left side and wants to push white to that side
+]
+;W[cp];B[co]
+C[cleinias: Of course C5  was the expected reply. Now what?
+]
+;W[dr];B[er];W[cr];B[fq]
+C[cleinias: F3 is good, of course, which shows invasion was a very bad idea in the first place. The only question is whther there is any chance the W group may survive
+]
+;W[es])

@@ -1,0 +1,7 @@
+created: 20190208053840345
+modified: 20190208065304640
+tags: 
+title: Test error message
+type: text/vnd.tiddlywiki
+
+<$godiagram goban="this is not a goban" />

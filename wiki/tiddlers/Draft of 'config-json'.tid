@@ -1,0 +1,47 @@
+created: 20190215045348274
+draft.of: config-json
+draft.title: config-json
+modified: 20190215054158544
+tags: 
+title: Draft of 'config-json'
+type: application/json
+
+[{
+    {
+        "size"       :  19
+    },
+    {
+        "panels"     :  ["control", "names", "comment", "tool", "tree", "file"]
+    },
+    {
+        "realstones" :  false
+    },
+    {
+        "shadows"    :  true
+    },
+    {
+        "coord"      :  true
+    },
+    {
+        "maxwidth"   :  900
+    },
+    {
+        "tool"       :  ""
+    },
+    {
+        "variants"   :  1
+    },
+    {
+        "path"       :  ""
+    },
+    {
+        "nokeys"     :  ""
+    },
+    {
+        "nowheel"    :  false
+    },
+    {
+        "resize"     :  []
+    } 
+}
+]

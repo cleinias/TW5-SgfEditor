@@ -1,0 +1,47 @@
+created: 20190214145025669
+modified: 20190214163025506
+tags: 
+title: Outline for a tutorial on writing widget plugins in TW
+type: text/vnd.tiddlywiki
+
+!How to write a plugin with external libraries in TW and node.js
+# Why you may need a custom widget
+## Visualization and editing of special domain info
+#General info about widget plugins
+## How a widget plugin works in TW's overall structure <div>
+* (see Simon H's discussion on list)* (see wiki-dev detailed discussion</div>
+# Necessary features of the external library 
+# Structure of the plugin dev environment in node.js
+## Folder structure
+## Demo/testing site
+## The files orchestrating the dance
+## Git, build tools, and auxiliary docs
+# Writing the widget plugin
+## Basic scaffolding
+### Instantiating widget and external lib
+### Setup
+### Execute function
+### Refresh function
+## Widget's commented code
+## Dealing with the external lib
+### TW and external modules
+#### The most common approach to building widgets in web apps
+#### ~CommonJS modules
+#### ES6 modules
+##### Babel
+### Call back functions
+# Plugin's settings and documentation inside TW
+## Setting up the panels in the plugin's page
+## Setting up a settings page
+### In the control panel
+### In the plugin's page
+# Debugging
+## Debugging with node.js debugger
+## Debugging in the browser
+# Delivery and installation
+## Minification
+# Auxiliary tools
+## Task runners
+## Scaffolding
+
+
