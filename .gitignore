@@ -19,3 +19,6 @@
 tmp/
 output/
 node_modules/
+
+# Distribution dir, regenerated on every build
+dist/
