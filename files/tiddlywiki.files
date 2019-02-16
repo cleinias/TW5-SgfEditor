@@ -60,9 +60,9 @@
 		                }
                        },
                          {
-			"file": "doc/config.txt", 
+			"file": "config.json", 
 			"fields": {
-				"type": "text/plain",
+				"type": "application/json",
 				"title": "$:/plugins/cleinias/sgfeditor/config" 
 		                }
                        },
