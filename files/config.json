@@ -1,0 +1,14 @@
+{
+    "size"       :  19,
+    "panels"     :  "control+names+comment+tool+tree+file",
+    "realstones" :  false,
+    "shadows"    :  auto,
+    "coord"      :  "western",
+    "maxwidth"   :  600,
+    "tool"       :  "",
+    "variants"   :  0,
+    "path"       :  "n",
+    "nokeys"     :  false,
+    "nowheel"    :  false,
+    "resize"     :  "auto"
+}
