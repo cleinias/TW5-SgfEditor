@@ -65,15 +65,11 @@ cp files/doc/* ./$distPath/files/doc/
 cp files/tiddlywiki.files ./$distPath/files
 cp files/config.json ./$distPath/files
 
-echo "Copying library required images..."
-cp files 
-
 echo "Uploading test wiki..."
 # TO DO
 echo "Test wiki upload still to do!"
 
 echo "Generating JDOC API docs..."
-# TO DO
-echo "Generating JDOC API docs  still to do!"
+jsdoc files/$library/js/*.js --destination jsdoc 
 
 echo "Done"
