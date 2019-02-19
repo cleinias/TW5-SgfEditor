@@ -5,7 +5,7 @@
         "tiddlywiki/filesystem",
         "tiddlywiki/highlight",
         "cleinias/TW5-Godiagram/",
-        "cleinias/TW5-SgfEditor"
+        "cleinias/TW5-SgfEditor/dist"
     ],
     "themes": [
         "tiddlywiki/vanilla",
