@@ -1,0 +1,152 @@
+     The original HTML structure of the besogo GUI
+     for a game with 2 moves played 
+
+
+container
+    |
+    |
+    +---------> board
+    |             |
+    |             +------------>svg (viewbox 0 0 804x804) 
+    |                            |
+    |                            +-------> rect -->   ?
+    |                            +-------> rect -->   ?
+    |                            +-------> path -->   ?
+    |                            +-------> path -->   ?
+    |                            +-------> group --> visible black stones
+    |                            +-------> group
+    |                                        +--------> rect  ?
+    |                                        +--------> text  ?
+    |                            +-------> group --> (all unplayed stones)
+    |                            +-------> events (361, 1 x intersec.)
+    |                                         
+    +---------> panels
+                  |
+                  +------------> control
+                  |                 +---------> button (First node)
+                  |                 +---------> button (Jump back)
+                  |                 +---------> button (Previous node)
+                  |                 +---------> button (Next node)
+                  |                 +---------> button (Jump forward)
+                  |                 +---------> button (Last node)
+                  |                 +---------> button (Previous sibling)
+                  |                 +---------> button (Next sibling)
+                  |                 +---------> button (Variants: child/sibling)
+                  |                 +---------> button (Variants: showw/hide)
+                  |                 +---------> button (Toggle coordinates)
+                  |
+                  +------------> names
+                  |                 +--------->Player info
+                  |                                +
+                  |                                +--------> White info
+                  |                                |            +------> White caps (span)
+                  |                                |
+                  |                                +--------> Black info
+                  |                                             +------> Black caps   (span)
+                  |
+                  +------------> comment
+                  |                 +---------> button (Info)
+                  |                 +---------> button (Edit info)
+                  |                 +---------> button (Comment)
+                  |                 +---------> table  (Game info, 8x2: Komi, Rules, etc.)
+                  |                 +---------> table  (Edit game info, 23x2: White Player, Black player, etc.)
+                  |                               |
+                  |                               +---------> div style block
+                  |                                               |
+                  |                                               +----------> textarea (Comments)
+                  |
+                  +------------> tool
+                  |                +---------> button (Autoplay/navigate)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                                     +--> svg
+                  |                |                                           +---> path
+                  |                |                                           +---> path
+                  |                |                                           +---> circle
+                  |                +---------> button (Set Black)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                                     +--> svg
+                  |                |                                           +---> circle
+                  |                +---------> button (Set White)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                                     +--> svg
+                  |                |                                           +---> circle
+                  |                +---------> button (Set empty point)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                                     +--> svg
+                  |                |                                           +---> circle
+                  |                |                                           +---> path
+                  |                +---------> button (Circle)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +---> circle
+                  |                +---------> button (Square)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> rect
+                  |                +---------> button (Triangle)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> poly
+                  |                +---------> button (Cross)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> path
+                  |                +---------> button (Block)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> rect
+                  |                +---------> button (Clear mark)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> group
+                  |                |                                     +--------> poly
+                  |                |                                     +--------> path
+                  |                +---------> button (Label)
+                  |                |             +-------> svg
+                  |                |                        +--------> rect
+                  |                |                        +--------> text (A1)
+                  |                |
+                  |                +---------> input  (Next label)
+                  |                +---------> button (Pass move)
+                  |                +---------> button (Raise varation)
+                  |                +---------> button (Lower variation)
+                  |                +---------> button (Remove branch)
+                  |
+                  +------------> tree
+                  |                +---------> svg
+                  |                             +-------> rect (the container for the tree)
+                  |                             +-------> group
+                  |                             |           +-------> rect (the current node)
+                  |                             |
+                  |                             +-------> group
+                  |                             |           +-------> path (the current path/variation)
+                  |                             |
+                  |                             +-------> group 
+                  |                             |           +-------> circle (the second node)
+                  |                             |           +-------> text   (its label)
+                  |                             |
+                  |                             +-------> group 
+                  |                             |           +-------> circle (the first node)
+                  |                             |           +-------> text   (its label)
+                  |                             |
+                  |                             +-------> group 
+                  |                             |           +-------> circle (the second node)
+                  |                             |           +-------> text   (its label)
+                  |                             |
+                  |                             +-------> circle (the root)
+                  |                             +-------> rect   (previous node)
+                  |                             +-------> rect   (next node)
+                  |
+                  +------------> file
+                                   +---------> button (New 9x9)
+                                   +---------> button (New 13x13)
+                                   +---------> button (New 19x19)
+                                   +---------> button (New custom size)
+                                   +---------> file ???      
+                                   +---------> button (Open)
+                                   +---------> button (Save)
+                                   
