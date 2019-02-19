@@ -9,10 +9,10 @@
 		                }
                         },
                          {
-			"file": "besogo/css/besogo.css", 
+			"file": "besogo/css/besogo-TW5.css", 
 			"fields": {
 				"type": "text/css",
-				"title": "$:/plugins/cleinias/sgfeditor/besogo.css", 
+				"title": "$:/plugins/cleinias/sgfeditor/besogo-TW5.css", 
                                 "tags": "[[$:/tags/Stylesheet]]"
 		                }
                        },

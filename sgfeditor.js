@@ -36,6 +36,8 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
     this.computeAttributes();
     var div = this.document.createElement("div");
     var parentWidth = this.parentDomNode.getBoundingClientRect().width;
+    div.style.width = parentWidth + 'px';
+    div.style.height = (parentWidth * 0.80)+ 'px'; // using CGoban h/w ratio
     try {
         div.setAttribute("class", "besogo-editor"); //General besogo editor 
         div.setAttribute("class", "besogo-container"); //General besogo editor 

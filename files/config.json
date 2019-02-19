@@ -2,7 +2,7 @@
     "size"       :  19,
     "panels"     :  "control+names+comment+tool+tree+file",
     "realstones" :  false,
-    "shadows"    :  auto,
+    "shadows"    :  "auto",
     "coord"      :  "none",
     "maxwidth"   :  600,
     "tool"       :  "none",
@@ -10,5 +10,5 @@
     "path"       :  "n",
     "nokeys"     :  false,
     "nowheel"    :  false,
-    "resize"     :  "maxwidth"
+    "resize"     :  "fixed"
 }
