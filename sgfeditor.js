@@ -36,8 +36,6 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
     this.computeAttributes();
     var div = this.document.createElement("div");
     var parentWidth = this.parentDomNode.getBoundingClientRect().width;
-    div.style.width = parentWidth + 'px';
-    div.style.height = (parentWidth * 0.80)+ 'px'; // using CGoban h/w ratio
     try {
         div.setAttribute("class", "besogo-editor"); //General besogo editor 
         div.setAttribute("class", "besogo-container"); //General besogo editor 
@@ -57,7 +55,11 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             path       : this.getAttribute("path", config.path ||''),
             nokeys     : this.getAttribute("noKeys", config.path || ''),
             nowheel    : this.getAttribute("nowheel", config.nowheel || false),
-            resize     : this.getAttribute("resize", config.resize || [])};  // expects a list. See docs for various options
+            resize     : this.getAttribute("resize", config.resize || [])};
+        // Set div's size no to exceed maxSize
+        (options["parentWidth"] < options["maxwidth"]) ? div.style.width = options["parentWidth"] + 'px' : div.style.width = options["maxwidth"] + 'px';
+        div.style.height = (div.style.width * 0.80)+ 'px'; // using CGoban h/w ratio
+
         // get the sgf game record or the url of one, if any
         var sgfContentOrLink= (this.parseTreeNode.text || "");
         //The player expects the sgf record or the link as content of the div is being passed
