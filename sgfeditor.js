@@ -56,7 +56,7 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             nokeys     : this.getAttribute("noKeys", config.path || ''),
             nowheel    : this.getAttribute("nowheel", config.nowheel || false),
             resize     : this.getAttribute("resize", config.resize || [])};
-        // Set div's size not to exceed maxSize
+        // Set div's size not to exceed a maxi width set in the widget's options
         (options["parentWidth"] < options["maxwidth"]) ? div.style.width = options["parentWidth"] + 'px' : div.style.width = options["maxwidth"] + 'px';
         div.style.height = (div.style.width * 0.80)+ 'px'; // using CGoban h/w ratio
 
