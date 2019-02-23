@@ -75,26 +75,27 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
  * The save sgf to content callback mechanism
  */
    var self = this;
-   // 1. the handle to the widget in the besogo editor
+   // // 1. the handle to the widget in the besogo editor
    this.sgfEditor.widget = self;
-   // 2. the callback function to update the tiddler from the besogo editor
-   this.sgfEditor.editor.tiddlerUpdate = function(msg){
-                                   if (msg.treeChange || msg.stoneChange || msg.markupChange) {
-                                       self.saveToTiddler();                                        
-                                       }
-                                   }; 
-   // 3. The event listener added to the besogo editor
-   this.sgfEditor.editor.addListener(self.tiddlerUpdate); // Adding a listener to the editor with the function
+   // // 2. the callback function to update the tiddler from the besogo editor
+   // this.sgfEditor.tiddlerUpdate = function(msg){
+   //                                     if (msg.treeChange || msg.stoneChange || msg.markupChange) {
+   //                                     self.saveToTiddler();                                        
+    //                                     }
+   //                                 }; 
+   // // 3. The event listener added to the besogo editor
+   // this.sgfEditor.addListener(this.tiddlerUpdate); // Adding a listener to the editor with the function
 
-   // 4. The function that actually saves the sgf and info file so the tiddler
-   this.sgfEditor.saveToTiddler = function(){
-                                     var fieldsUpdates = {}          // Objects with new values for all the tiddler's fields
-                                     fieldsUpdates["text"] = self.composeSgf(self.current);
-                                     for (var field; field < self.info.length; field++ ){ // Check proper data struct of info
-                                             fieldsUpdates[field]= self.info[field];
-                                     }
-                                     self.widget.wiki.setTiddlerData(fieldsUpdates);
-                                   };
+   // // 4. The function that actually saves the sgf and info file so the tiddler
+   // this.sgfEditor.saveToTiddler = function(){
+   //                                   var fieldsUpdates = {};          // Objects with new values for all the tiddler's fields
+   //                                   var gameInfo = this.getGameInfo();
+   //                                   fieldsUpdates["text"] = self.composeSgf(this.current);
+   //                                   for (var field; field < gameInfo.length; field++ ){ // Check proper data struct of info
+   //                                           fieldsUpdates[field]= gameInfo[field];
+   //                                   }
+   //                                   self.widget.wiki.setTiddlerData(fieldsUpdates);
+   //                                 };
 
 
 
@@ -108,8 +109,8 @@ A widget with optimized performance will selectively refresh, but here we refres
 GoGameWidget.prototype.refresh = function(changedTiddlers) {
   // Regenerate and rerender the widget and
   // replace the existing DOM node
-  this.refreshSelf();
-  return true;
+  // this.refreshSelf();
+  // return true;
 };
 
 
