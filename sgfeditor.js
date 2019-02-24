@@ -66,11 +66,16 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
         div.textContent = sgfContentOrLink;
         // Create the editor into the div
         this.sgfEditor = besogoPlayer;
+        // Pass a handle to the widget in the besogo editor
+        var self = this;
+        this.sgfEditor.widget = self;
+        // Now let besogo create the sgf player
         this.sgfEditor.create(div,options);
     } catch(ex) {
         div.className = "tc-error";
         div.textContent = ex;
     }
+
     parent.insertBefore(div,nextSibling);
     this.domNodes.push(div);
 };
@@ -82,8 +87,8 @@ A widget with optimized performance will selectively refresh, but here we refres
 GoGameWidget.prototype.refresh = function(changedTiddlers) {
   // Regenerate and rerender the widget and
   // replace the existing DOM node
-  this.refreshSelf();
-  return true;
+  // this.refreshSelf();
+  // return true;
 };
 
 
