@@ -66,38 +66,15 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
         div.textContent = sgfContentOrLink;
         // Create the editor into the div
         this.sgfEditor = besogoPlayer;
+        // Pass a handle to the widget in the besogo editor
+        var self = this;
+        this.sgfEditor.widget = self;
+        // Now let besogo create the sgf player
         this.sgfEditor.create(div,options);
     } catch(ex) {
         div.className = "tc-error";
         div.textContent = ex;
     }
-/*
- * The save sgf to content callback mechanism
- */
-   var self = this;
-   // // 1. the handle to the widget in the besogo editor
-   this.sgfEditor.widget = self;
-   // // 2. the callback function to update the tiddler from the besogo editor
-   // this.sgfEditor.tiddlerUpdate = function(msg){
-   //                                     if (msg.treeChange || msg.stoneChange || msg.markupChange) {
-   //                                     self.saveToTiddler();                                        
-    //                                     }
-   //                                 }; 
-   // // 3. The event listener added to the besogo editor
-   // this.sgfEditor.addListener(this.tiddlerUpdate); // Adding a listener to the editor with the function
-
-   // // 4. The function that actually saves the sgf and info file so the tiddler
-   // this.sgfEditor.saveToTiddler = function(){
-   //                                   var fieldsUpdates = {};          // Objects with new values for all the tiddler's fields
-   //                                   var gameInfo = this.getGameInfo();
-   //                                   fieldsUpdates["text"] = self.composeSgf(this.current);
-   //                                   for (var field; field < gameInfo.length; field++ ){ // Check proper data struct of info
-   //                                           fieldsUpdates[field]= gameInfo[field];
-   //                                   }
-   //                                   self.widget.wiki.setTiddlerData(fieldsUpdates);
-   //                                 };
-
-
 
     parent.insertBefore(div,nextSibling);
     this.domNodes.push(div);
