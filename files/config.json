@@ -4,12 +4,12 @@
     "realstones" :  false,
     "shadows"    :  "auto",
     "coord"      :  "none",
-    "maxwidth"   :  750,
+    "maxWidth"   :  750,
     "tool"       :  "none",
     "variants"   :  0,
     "path"       :  "n",
     "nokeys"     :  false,
     "nowheel"    :  false,
     "resize"     :  "fixed",
-    "TW5Ratio"   :  0.78
+    "TW5Ratio"   :  0.8
 }

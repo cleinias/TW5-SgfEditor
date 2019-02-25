@@ -17,6 +17,14 @@
 		                }
                        },
                          {
+			"file": "besogo/css/board-wood.css", 
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/cleinias/sgfeditor/besogo.board.css", 
+                                "tags": "[[$:/tags/Stylesheet]]"
+		                }
+                       },
+                         {
 			"file": "doc/example.md", 
 			"fields": {
 				"type": "text/md",

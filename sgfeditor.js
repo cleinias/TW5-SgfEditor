@@ -49,7 +49,7 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             shadows    : this.getAttribute("shadows", config.shadows || true),
             coord      : this.getAttribute("coord", config.coord || true),
             parentWidth: parentWidth,
-            maxwidth   : this.getAttribute("maxwidth", config.maxwidth || 900),
+            maxWidth   : this.getAttribute("maxWidth", config.maxWidth || 900),
             tool       : this.getAttribute("tool", config.tool || ''),
             variants   : this.getAttribute("variants", config.variants || 1),
             path       : this.getAttribute("path", config.path ||''),
@@ -59,7 +59,7 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             TW5Ratio   : this.getAttribute("TW5Ratio", config.TW5ratio || 0.8)},
             divWidth, divHeight;
         // Set div's size not to exceed a maxi width set in the widget's options
-        (options["parentWidth"] < options["maxwidth"]) ? divWidth= options["parentWidth"] : divWidth = options["maxWidth"];
+        (options["parentWidth"] < options["maxWidth"]) ? divWidth= options["parentWidth"] : divWidth = options["maxWidth"];
         divHeight = divWidth * options.TW5Ratio;
         div.style.width = divWidth + 'px';
         div.style.height = divHeight + "px";
