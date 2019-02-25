@@ -22,6 +22,6 @@ var SGFParser = function(type,text,options) {
 console.log(text);
 };
 
-exports["text/vnd-tiddlywiki-sgf"] = SGFParser;
+exports["application/x-go-sgf"] = SGFParser;
 
 })();
