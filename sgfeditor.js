@@ -55,11 +55,16 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             path       : this.getAttribute("path", config.path ||''),
             nokeys     : this.getAttribute("noKeys", config.path || ''),
             nowheel    : this.getAttribute("nowheel", config.nowheel || false),
-            resize     : this.getAttribute("resize", config.resize || [])};
+            resize     : this.getAttribute("resize", config.resize || []),
+            TW5Ratio   : this.getAttribute("TW5Ratio", config.TW5ratio || 0.8)},
+            divWidth, divHeight;
         // Set div's size not to exceed a maxi width set in the widget's options
-        (options["parentWidth"] < options["maxwidth"]) ? div.style.width = options["parentWidth"] + 'px' : div.style.width = options["maxwidth"] + 'px';
-        div.style.height = (div.style.width * 0.80)+ 'px'; // using CGoban h/w ratio
-
+        (options["parentWidth"] < options["maxwidth"]) ? divWidth= options["parentWidth"] : divWidth = options["maxWidth"];
+        divHeight = divWidth * options.TW5Ratio;
+        div.style.width = divWidth + 'px';
+        div.style.height = divHeight + "px";
+        console.log("Div for besogo ==> width: ", divWidth,
+                    "  height: ", divHeight ); 
         // get the sgf game record or the url of one, if any
         var sgfContentOrLink= (this.parseTreeNode.text || "");
         //The besogo player expects the sgf record or the link as content of the div is being passed
