@@ -2,7 +2,7 @@
 	"title": "$:/plugins/cleinias/sgfeditor",
 	"description": "Go/Baduk/Weiqi game editor",
 	"author": "Stefano Franchi",
-	"version": "0.0.4",
+	"version": "0.0.6",
 	"core-version": ">=5.0.8",
 	"source": "https://github.com/cleinias/TW5-SgfEditor",
 	"plugin-type": "plugin",
