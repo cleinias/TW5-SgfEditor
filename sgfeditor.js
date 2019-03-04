@@ -52,9 +52,9 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
                                                   || false),
             shadows        : this.getTiddlerField("shadows", config.shadows
                                                   || true),
-            coord          : this.getTiddlerField("coord", config.coord || true),
-            tool           : this.getTiddlerField("tool", config.tool || true),
-            label          : this.getTiddlerField("label", config.label || true),
+            coord          : this.getTiddlerField("coord", config.coord || "numeric"),
+            tool           : this.getTiddlerField("tool", config.tool || "auto"),
+            label          : this.getTiddlerField("label", config.label || "a"),
             maxWidth       : this.getTiddlerField("maxWidth", config.maxWidth ||
                                                   900),
             variantStyle   : this.getTiddlerField("variants", config.variants || 1),
@@ -63,6 +63,7 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
             nowheel        : this.getTiddlerField("nowheel", config.nowheel ||
                                                   false),
             resize         : this.getTiddlerField("resize", config.resize || []),
+            // Height to width ratio of sgfEditor window
             TW5Ratio       : this.getTiddlerField("TW5Ratio", config.TW5ratio || 0.8)},
             divWidth, divHeight;
         // Set div's size not to exceed a maxi width set in the widget's options
