@@ -43,34 +43,25 @@ GoGameWidget.prototype.render = function(parent,nextSibling) {
         var config = $tw.wiki.getTiddlerData(SGFEDITOR_OPTIONS,{});
         // Read options from config panel, but tiddler's fields can override. If none are present provide defaults
         var options = {
-            // size           : this.getAttribute("size", config.size || 19),
-            // panels         : this.getAttribute("panels", config.panels || ['control', 'names', 'comment', 'tool', 'tree', 'file']),
-            // realstones     : this.getAttribute("realstones", config.realstones || false),
-            // shadows        : this.getAttribute("shadows", config.shadows || true),
-            // coord          : this.getAttribute("coord", config.coord || true),
-            // tool           : this.getAttribute("tool", config.tool || true),
-            // label          : this.getAttribute("label", config.label || true),
             parentWidth    : parentWidth,
-            // maxWidth       : this.getAttribute("maxWidth", config.maxWidth || 900),
-            // variantStyle   : this.getAttribute("variants", config.variants || 1),
-            // path           : this.getAttribute("path", config.path ||''),
-            // nokeys         : this.getAttribute("noKeys", config.path || ''),
-            // nowheel        : this.getAttribute("nowheel", config.nowheel || false),
-            // resize         : this.getAttribute("resize", config.resize || []),
-            // TW5Ratio       : this.getAttribute("TW5Ratio", config.TW5ratio || 0.8)},
             size           : this.getTiddlerField("size", config.size || 19),
-            panels         : this.getTiddlerField("panels", config.panels || ['control', 'names', 'comment', 'tool', 'tree', 'file']),
-            realstones     : this.getTiddlerField("realstones", config.realstones || false),
-            shadows        : this.getTiddlerField("shadows", config.shadows || true),
+            panels         : this.getTiddlerField("panels", config.panels ||
+                                                  ['control', 'names', 'comment',
+                                                   'tool', 'tree', 'file']),
+            realstones     : this.getTiddlerField("realstones", config.realstones
+                                                  || false),
+            shadows        : this.getTiddlerField("shadows", config.shadows
+                                                  || true),
             coord          : this.getTiddlerField("coord", config.coord || true),
             tool           : this.getTiddlerField("tool", config.tool || true),
             label          : this.getTiddlerField("label", config.label || true),
-            // parentWidth    : parentWidth,
-            maxWidth       : this.getTiddlerField("maxWidth", config.maxWidth || 900),
+            maxWidth       : this.getTiddlerField("maxWidth", config.maxWidth ||
+                                                  900),
             variantStyle   : this.getTiddlerField("variants", config.variants || 1),
             path           : this.getTiddlerField("path", config.path ||''),
             nokeys         : this.getTiddlerField("noKeys", config.path || ''),
-            nowheel        : this.getTiddlerField("nowheel", config.nowheel || false),
+            nowheel        : this.getTiddlerField("nowheel", config.nowheel ||
+                                                  false),
             resize         : this.getTiddlerField("resize", config.resize || []),
             TW5Ratio       : this.getTiddlerField("TW5Ratio", config.TW5ratio || 0.8)},
             divWidth, divHeight;
@@ -124,7 +115,6 @@ GoGameWidget.prototype.refresh = function(changedTiddlers) {
         }        
     };
     
-
     exports.sgfeditor = GoGameWidget;
 
 })();
